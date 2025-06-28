@@ -11,7 +11,7 @@ bot_token = "7644736999:AAHc3zRNPy6EG0IJBX7OxsSI9dVk-4Lg2XE"
 
 
 # === Initialize Telethon client ===
-client = TelegramClient('quiz_bot', api_id, api_hash).start(bot_token=bot_token)
+client = TelegramClient('quiz_bot.session', api_id, api_hash).start(bot_token=bot_token)
 
 # === Flask app to keep alive ===
 app = Flask('')
