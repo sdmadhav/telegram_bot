@@ -75,5 +75,5 @@ Starting with our first poll below 👇 👇
 keep_alive()  # Start Flask keep-alive server
 
 with client:
-    client.loop.run_until_complete(main())
+    # client.loop.run_until_complete(main())
     client.run_until_disconnected()
