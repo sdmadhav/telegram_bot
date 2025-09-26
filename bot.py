@@ -6,7 +6,6 @@ import asyncio
 # === Telegram API credentials ===
 api_id = 14300604
 api_hash = "c564cb7dc56a5110750727f97e5efc51"
-# session_name = 'session_+918605848123.session'
 bot_token = "7644736999:AAHc3zRNPy6EG0IJBX7OxsSI9dVk-4Lg2XE"
 
 
